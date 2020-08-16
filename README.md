@@ -10,6 +10,7 @@ time=t2 date=d3 rule=out
 rule=r3 date=sd3 run=no
 
 Long awk command is	: awk -F"date=" '{print $2}' your.log | cut -f1 -d" "
+
 Output you will get	: 	d1
 				d3
 				sd3
