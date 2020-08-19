@@ -6,10 +6,12 @@ This script will shorten your awk filtering commands.
 Ex. If you want to filter all dates from below log file
 
 time=t1 date=d1 rule=in
+
 time=t2 date=d3 rule=out
+
 rule=r3 date=sd3 run=no
 
-Long awk command is	: awk -F"date=" '{print $2}' your.log | cut -f1 -d" "
+Long awk command is	: awk -F"date=" '{print }' your.log | cut -f1 -d" "
 
 Output you will get	: 	d1
 				d3
